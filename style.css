@@ -1,0 +1,154 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+    font-family: "Yekan Bakh-Bold";
+    src: url("https://anima-uploads.s3.amazonaws.com/5d6a609397ac03b9cb7752ed/Yekan Bakh EN 06 Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Yekan Bakh-Regular";
+    src: url("https://anima-uploads.s3.amazonaws.com/5d6a609397ac03b9cb7752ed/Yekan Bakh EN 04 Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Yekan Bakh-SemiBold";
+    src: url("https://anima-uploads.s3.amazonaws.com/projects/642217c96dfa9b1c0d4512a6/fonts/yekanbakhfanum-semibold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Yekan Bakh-ExtraBold";
+    src: url("https://anima-uploads.s3.amazonaws.com/projects/642217c96dfa9b1c0d4512a6/fonts/yekanbakhfanum-extrabold.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Yekan Bakh-SemiBold", Helvetica;
+    font-weight: 400;
+    /* color: #302b45;
+    font-size: 64px; */
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+p {
+    font-family: "Yekan Bakh-SemiBold", Helvetica;
+    /* font-weight: 800;
+    color: #302b45;
+    font-size: 64px; */
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+
+.sectoin-1{
+    /* background: radial-gradient(#242424, #1F1F1F); */
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(-90deg, rgb(51.2, 51.2, 51.2) 0%, rgb(15.73, 15.66, 15.66) 100%);
+    width: 100%;
+    height: 800px;
+}
+
+
+.rectancel-section1{
+    /* background: radial-gradient(#242424, #1F1F1F); */
+    background: radial-gradient(50% 50% at 50% 50%, rgb(36.32, 36.32, 36.32) 0%, rgb(31.01, 31.01, 31.01) 100%);
+    /* background: white; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 516.6px;
+    height: 800px;
+}
+
+a{
+    text-decoration: none;
+    /* color: text-body-secondary; */
+}
+
+.menu li{
+    padding: 0 1rem 0 1rem;
+}
+
+
+
+.section1-content{
+    margin-top: 65px;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+
+.main-img-product{
+    position: absolute;
+}
+
+.img-main-product{
+    position: absolute;
+    top: 100px;
+    left: 170px;
+}
+
+
+.box-content-section1{
+    margin-top: 80px;
+}
+
+.before-the-title{
+    font-family: "Yekan Bakh-ExtraBold", Helvetica;
+    font-weight: 400;
+    color: #929292;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.title{
+    font-family: "Yekan Bakh-ExtraBold", Helvetica;
+    font-weight: 400;
+    /* color: #302b45; */
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+.p-title{
+    font-family: "Yekan Bakh-ExtraBold", Helvetica;
+    font-weight: 400;
+    color: #929292;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.price{
+    font-family: "Yekan Bakh-ExtraBold", Helvetica;
+    font-weight: 400;
+    /* color: #302b45; */
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.buttom-content-sectoin1{
+    margin-top: 70px;
+}
+
+.buttom-content-sectoin1 button{
+    margin-left: 70px;
+}
+
+.other-product-sectoin1-img{
+    margin-top: 85px;
+}
+
+.img-other-product-section1{
+    margin-top: 40px;
+}
